@@ -3,6 +3,7 @@ node_modules
 
 # Rope project settings
 .ropeproject
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -59,8 +60,12 @@ coverage.xml
 local_settings.py
 
 # Flask stuff:
+<<<<<<< HEAD
 instance/repo
 !instance/config/*
+=======
+instance/
+>>>>>>> 93ba0c8dc7590831a0472519e2ce67d3cb13ee4a
 .webassets-cache
 
 # Scrapy stuff:
@@ -92,19 +97,4 @@ ENV/
 .spyderproject
 
 # Rope project settings
-.ropeproject
-
-.DS_Store
-*.pyc
-*.pyo
-dist
-./build/
-*.egg
-*.egg-info
-_mailinglist
-.tox
-.cache/
-.idea/
-
-ve/
 
